@@ -11,10 +11,10 @@ app.get('/', function (req, res) {
 app.get('/article-one ', function (req,res){
     res.send('we like to party');
     })
-    app.get('/article-one ', function (req,res){
+    app.get('/article-two ', function (req,res){
     res.send('we like to party party ');
     })
-    app.get('/article-one ', function (req,res){
+    app.get('/article-three ', function (req,res){
     res.send('we like to party party party');
     })
 app.get('/ui/style.css', function (req, res) {
